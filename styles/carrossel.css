@@ -1,0 +1,38 @@
+.carrossel__titulo{
+    color: #013a63;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Arapey";
+    font-style: italic;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 1em 0 0.5em 0;
+}
+
+.carrossel{
+    align-items: center;
+}
+
+.swiper-slide{
+    color: #013a63;
+    align-items: center;
+    font-size: 40px;
+    font-family: "Arapey";
+    display: flex;
+}
+
+.swiper-slide img{
+    width: 60%;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination{
+    position: initial;
+    margin: 0.5em 0;
+}

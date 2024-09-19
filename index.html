@@ -8,7 +8,24 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&display=swap" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&display=swap" rel="stylesheet"> 
+  
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+  const swiper = new Swiper(".swiper", {
+    spaceBetween: 10,
+    slidesPerView: 3,
+    pagination: {
+      el: ".swiper-pagination",
+      type: "bullets",
+    },
+  });
+</script>
+
   </head>
 
 <header class="cabeçalho" id="cabeçalho">
@@ -18,23 +35,48 @@
     <ul class="cabeçalho__lista">
         <li class="cabeçalho__item"><a href="#cabeçalho" class="opções_link">Início</a></li>
         <li class="cabeçalho__item"><a href="#banner" class="opções_link">Sobre</a></li>
-        <li class="cabeçalho__item"><a href="#" class="opções_link">Projetos</a></li>
+        <li class="cabeçalho__item"><a href="#carrossel" class="opções_link">Projetos</a></li>
         <li class="cabeçalho__item"><a href="#" class="opções_link">Eventos</a></li>
         <li class="cabeçalho__item"><a href="#" class="opções_link">Contato</a></li>
     </ul>
 </header>
 
 <section class="início">
-  <h2 class="início__titulo"> Colégio Antonio Garcez Novaes</h2>
+  <h1 class="início__titulo">Colégio Antonio Garcez Novaes</h1>
   <img class="início__imagem" src="img/frente_escola.png" alt="Logo Colégio Garcez"> </img>
 </section>
 
 <section class="banner" id="banner">
   <div class="container__banner">
-    <h1 class="banner__titulo"> Sobre o Colégio</h1>
-    <p class="banner__texto"> Estadual Antonio Garcez Novaes está localizado na região central de Arapongas - Pr.
+    <h1 class="banner__titulo">Sobre o Colégio</h1>
+    <p class="banner__texto">O Colégio Estadual Antonio Garcez Novaes está localizado na região central de Arapongas - Pr.
     Oferece educação gratuita de qualidade para as séries finais do Ensino Fundamental, Ensino Médio e Técnico 
     Profissionalizante com os cursos: Técnico em Farmácia, Técnico em Edificações, Técnico em Enfermagem e Técnico em Segurança do Trabalho.</p>
   </div>
   <img src="img/mural.jpg" class="banner__imagem"/>
+</section>
+
+
+
+<section class="carrossel" id="carrossel">
+  <h1 class="carrossel__titulo">Projetos</h1>
+<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">Biotecnologia
+      <img src="img/biotec1.jpg" alt=""> </div>
+      <div class="swiper-slide">Biotecnologia
+        <img src="img/biotec2.jpg" alt=""> </div>
+
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
 </section>

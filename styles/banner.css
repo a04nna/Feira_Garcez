@@ -1,7 +1,5 @@
 .banner{
     display: flex;
-    justify-content: space-between;
-    margin: 25px;
     padding: 100px 10px;
     margin-bottom: 90px;
 }
@@ -26,6 +24,6 @@
 }
 
 .banner__imagem{
-    width: 60%;
+    width: 150%;
     border-radius: 24px;
 }
