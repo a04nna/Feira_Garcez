@@ -3,11 +3,12 @@
 
 .root{
     --preto:#000000;
-    --fonte-principal:
+    --azul-escuro: #013a63;
+    --fonte-principal: "Prata";
 }
 
 body {
-    background-color: #a8a8a8;
+    background-color: #5d96ae;
     font-family: var(--fonte-principal);
     font-size:16px ;
     font-weight: 400;
@@ -18,4 +19,16 @@ body {
     padding: 0;
 }
 
+p#link{
+        font-family: "Prata", system-ui;
+        font-weight: 400;
+        font-style: normal;      
 
+        font-family: "Poppins", system-ui;
+        font-weight: 100;
+        font-style: normal;
+
+        font-family: "Arapey", system-ui;
+        font-weight: 400;
+        font-style: normal;
+}

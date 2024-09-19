@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 5px 60px;
+    margin-bottom: 55px;
 }
 
 .container{
@@ -19,13 +20,14 @@
 .cabeçalho__item{
     display: inline-block;
     margin: 0 16px;
-    font-size: 18px;
+    font-size: 25px;
     text-decoration: none;
 }
 
 .opções_link{
     text-decoration: none;
-    color: var(--preto);
+    color: #012a4a;
+    font-family: "Arapey";
 }
 
 
@@ -34,16 +36,21 @@
     padding: 0px 55px 10px 10px;
     width: 70%;
     display: flex;
+    margin-bottom: 90px;
 }
 
 .início__titulo{
     display: inline-block;
-    width: 50%;
+    width: 40%;
     font-size: 100px;
     padding: 10px 70px;
+    color:#012a4a;
+    font-family: "Prata";
+    font-style: italic;
 }
 
+
 .início__imagem{
-    width: 100%;
+    width: 85%;
     border-radius: 24px;
 }
