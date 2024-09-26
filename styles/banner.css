@@ -1,29 +1,36 @@
 .banner{
     display: flex;
-    padding: 100px 10px;
-    margin-bottom: 90px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .banner__titulo{
-    font-size: 50px;
+    color: #013a63;
     text-transform: uppercase;
-    text-align: left;
     font-family: "Arapey";
-    margin: 0.5em 1em;
-    color: #012a4a;
     font-style: italic;
+    font-size: 45px;
+    font-weight: 700;
 }
 
 .banner__texto{
-    width: 70%;
     font-size: 20px;
-    margin: 0.5em 3em;
-    text-align:justify;
-    font-family: "Poppins";
-    color: #003566;
+    color: #013a63;
+    text-align: justify;
 }
 
 .banner__imagem{
-    width: 150%;
     border-radius: 24px;
+    width: 50%;
+    margin-right: 70px;
+    margin-left: 50px;
+    box-shadow: 3px 3px 5px #013a63;
+}
+
+.container__banner{
+    width: 50%;
+    margin-left: 70px;
+    margin-right: 50px;
 }
