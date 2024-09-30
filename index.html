@@ -25,7 +25,7 @@
         <li class="cabeçalho__item"><a href="#banner" class="opções_link">Sobre</a></li>
         <li class="cabeçalho__item"><a href="#carrossel" class="opções_link">Projetos</a></li>
         <li class="cabeçalho__item"><a href="#" class="opções_link">Eventos</a></li>
-        <li class="cabeçalho__item"><a href="#" class="opções_link">Contato</a></li>
+        <li class="cabeçalho__item"><a href="#contato" class="opções_link">Contato</a></li>
     </ul>
 </header>
 
@@ -54,16 +54,13 @@
 
   <!-- Slides -->
       <div class="swiper-slide">2°C Aula de Biotecnologia
-      <img src="img/biotec1.jpg" alt="Alunos do 2°C em aula de Biotecnologia"> </div>
+      <img src="img/biotec2.jpg" alt="Alunos do 2°C em aula de Biotecnologia"> </div>
 
       <div class="swiper-slide">Professora de Biotecnologia
-      <img src="img/biotec2.jpg" alt="Professora Maria Alice de Biotecnologia caracterizada como juiz"> </div>
+      <img src="img/biotec1.jpg" alt="Professora Maria Alice de Biotecnologia caracterizada como juiz"> </div>
 
-      <div class="swiper-slide">Professora de Biotecnologia
-      <img src="img/biotec2.jpg" alt="Professora Maria Alice de Biotecnologia caracterizada como juiz"> </div>
-
-      <div class="swiper-slide">Professora de Biotecnologia
-        <img src="img/biotec2.jpg" alt="Professora Maria Alice de Biotecnologia caracterizada como juiz"> </div>
+      <div class="swiper-slide">Juri simulado
+      <img src="img/biotec3.jpg" alt="Professora Maria Alice de Biotecnologia caracterizada como juiz"> </div>
   </div>
 
   <!-- If we need navigation buttons -->
@@ -77,6 +74,46 @@
   <script>
     const swiper = new Swiper(".swiper", {
       spaceBetween: 10,
+      slidesPerView: 2,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+      },
+    });
+  </script>
+
+
+<section class="eventos" id="eventos"></section>
+  <h1 class="evento__titulo">Eventos</h1>
+  <p class="evento__titulo2">Arraiá Garcez</p>
+<!-- Slider main container -->
+<div class="swiper_">
+
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+
+  <!-- Slides -->
+      <div class="swiper-slide">2°C Aula de Biotecnologia
+      <img src="img/biotec2.jpg" alt="Alunos do 2°C em aula de Biotecnologia"> </div>
+
+      <div class="swiper-slide">Professora de Biotecnologia
+      <img src="img/biotec1.jpg" alt="Professora Maria Alice de Biotecnologia caracterizada como juiz"> </div>
+
+      <div class="swiper-slide">Juri simulado
+      <img src="img/biotec3.jpg" alt="Professora Maria Alice de Biotecnologia caracterizada como juiz"> </div>
+  </div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+</section>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper_ = new Swiper(".swiper_", {
+      spaceBetween: 10,
       slidesPerView: 3,
       pagination: {
         el: ".swiper-pagination",
@@ -84,3 +121,16 @@
       },
     });
   </script>
+
+
+<footer class="contato" id="contato">
+  <p class="contato__texto">O Colégio Antonio Garcez Novaes está localizado na Rua Perdizes 910, Arapongas, PR, 86700-000. Contate-nos: (43) 3252-6225 </p>
+  <ul class="contato__lista">Redes sociais:
+    <li class="lista__link">
+      <a href="https://www.instagram.com/colgarcez?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram </a>
+    </li>
+    <li class="lista__link"> 
+      <a href="https://www.facebook.com/profile.php?id=100019132658783&ref=xav_ig_profile_web">Facebook</a>
+    </li>
+  </ul>
+</footer>

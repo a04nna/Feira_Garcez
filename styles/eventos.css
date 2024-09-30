@@ -1,0 +1,26 @@
+.evento__titulo{
+    color: #013a63;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Arapey";
+    font-style: italic;
+    font-size: 45px;
+}
+
+.evento__titulo2{
+    color: #013a63;
+    text-align: center;
+    font-family: "Arapey";
+    font-size: 30px;
+}
+
+.eventos{
+    width: 100%;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.swiper_{
+    width: 80%;
+    align-items: center;
+}

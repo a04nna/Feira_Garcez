@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 150px;
+    padding-bottom: 200px;
 }
 
 .banner__titulo{
@@ -23,14 +23,14 @@
 
 .banner__imagem{
     border-radius: 24px;
-    width: 50%;
+    width: 60%;
     margin-right: 70px;
     margin-left: 50px;
     box-shadow: 3px 3px 5px #013a63;
 }
 
 .container__banner{
-    width: 50%;
+    width: 40%;
     margin-left: 70px;
     margin-right: 50px;
 }

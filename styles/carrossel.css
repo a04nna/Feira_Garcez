@@ -7,11 +7,23 @@
     font-size: 45px;
 }
 
-
-.swiper-slide img {
-    width: 100%;
+.swiper{
+    width: 80%;
+    align-items: center;
 }
 
+.swiper-slide img {
+    width: 100%;   
+    align-content: center;    
+    padding: 10px 10px;
+}
+
+.swiper-slide {
+    color: #013a63;
+    text-align: center;
+    font-family: "Arapey";
+    font-size: 30px;
+}
 
 .swiper-button-prev,
 .swiper-button-next {

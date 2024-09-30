@@ -1,0 +1,18 @@
+.contato {
+    text-align: center;
+    margin: 5em 3em;
+    color:#002a48 ;
+    font-family: "Poppins";
+}
+
+.contato__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.lista__link a{
+    color: var(--branco-principal);
+    margin-left: 1em;
+}
