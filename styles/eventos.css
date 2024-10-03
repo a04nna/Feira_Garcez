@@ -1,5 +1,5 @@
-.evento__titulo{
-    color: #013a63;
+.eventos__titulo{
+    color: #013a63; 
     text-align: center;
     text-transform: uppercase;
     font-family: "Arapey";
@@ -7,20 +7,43 @@
     font-size: 45px;
 }
 
-.evento__titulo2{
-    color: #013a63;
+.eventos__titulo2{
+    color: #013a63; 
     text-align: center;
-    font-family: "Arapey";
+    font-family: "Poppins";
     font-size: 30px;
 }
 
 .eventos{
-    width: 100%;
-    margin-top: 200px;
-    margin-bottom: 200px;
+    padding-top: 100px;
+    padding-bottom: 125px;
 }
 
-.swiper_{
-    width: 80%;
+.swiper{
+    width: 90%;
     align-items: center;
+}
+
+.swiper-slide img {
+    width: 100%;   
+    align-content: center;    
+    padding: 10px 10px;
+}
+
+.swiper-slide {
+    color: #013a63;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 25px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+
+.swiper-pagination {
+    position: initial;
+    margin: .5em 0;
 }

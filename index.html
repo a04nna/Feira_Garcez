@@ -24,7 +24,7 @@
         <li class="cabeçalho__item"><a href="#cabeçalho" class="opções_link">Início</a></li>
         <li class="cabeçalho__item"><a href="#banner" class="opções_link">Sobre</a></li>
         <li class="cabeçalho__item"><a href="#carrossel" class="opções_link">Projetos</a></li>
-        <li class="cabeçalho__item"><a href="#" class="opções_link">Eventos</a></li>
+        <li class="cabeçalho__item"><a href="#eventos" class="opções_link">Eventos</a></li>
         <li class="cabeçalho__item"><a href="#contato" class="opções_link">Contato</a></li>
     </ul>
 </header>
@@ -34,15 +34,23 @@
   <img class="início__imagem" src="img/frente_escola.png" alt="Logo Colégio Garcez"> </img>
 </section>
 
+<div class="ondinha">
+  <img src="img/divider.png"/>
+</div>
+
 <section class="banner" id="banner">
   <div class="container__banner">
     <h1 class="banner__titulo">Sobre o Colégio</h1>
     <p class="banner__texto">O Colégio Estadual Antonio Garcez Novaes está localizado na região central de Arapongas - Pr.
     Oferece educação gratuita de qualidade para as séries finais do Ensino Fundamental, Ensino Médio e Técnico 
-    Profissionalizante com os cursos: Técnico em Farmácia, Técnico em Edificações, Técnico em Enfermagem e Técnico em Segurança do Trabalho.</p>
+    Profissionalizante.</p>
   </div>
   <img src="img/mural.jpg" class="banner__imagem"/>
 </section>
+
+<div class="ondinha">
+  <img src="img/divider.png"/>
+</div>
 
 <section class="carrossel" id="carrossel">
   <h1 class="carrossel__titulo">Projetos</h1>
@@ -53,74 +61,90 @@
   <div class="swiper-wrapper">
 
   <!-- Slides -->
-      <div class="swiper-slide">2°C Aula de Biotecnologia
+      <div class="swiper-slide">Juri simulado - Biotecnologia
       <img src="img/biotec2.jpg" alt="Alunos do 2°C em aula de Biotecnologia"> </div>
 
-      <div class="swiper-slide">Professora de Biotecnologia
+      <div class="swiper-slide">Professora de Biotecnologia no juri simulado
       <img src="img/biotec1.jpg" alt="Professora Maria Alice de Biotecnologia caracterizada como juiz"> </div>
 
-      <div class="swiper-slide">Juri simulado
-      <img src="img/biotec3.jpg" alt="Professora Maria Alice de Biotecnologia caracterizada como juiz"> </div>
+      <div class="swiper-slide">Juri simulado - Biotecnologia
+      <img src="img/biotec3.jpg" alt="Juri simulado"> </div>
+
+      <div class="swiper-slide">Experimento químico
+      <img src="img/experimento-quimica2.jpg" alt="Alunos realizando experimento químico"> </div>
+
+      <div class="swiper-slide">Professor de química realizando experimento
+      <img src="img/experimento-quimica.jpg" alt="Alunos realizando experimento químico"> </div>
+
+      <div class="swiper-slide">Alunos utilizando o microscópio
+      <img src="img/microscópio.jpg" alt="Três alunos utilizando o microscópio"> </div>
+
+      <div class="swiper-slide">Aluna utilizando o microscópio
+      <img src="img/microscopio2.jpg" alt="Aluna utilizando o microscópio"> </div>
   </div>
-
-  <!-- If we need navigation buttons -->
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
-
 </div>
 </section>
 
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
     const swiper = new Swiper(".swiper", {
       spaceBetween: 10,
       slidesPerView: 2,
+      loop: true,
       pagination: {
         el: ".swiper-pagination",
         type: "bullets",
       },
     });
-  </script>
+</script>
 
+<div class="ondinha">
+  <img src="img/divider.png"/>
+</div>
 
-<section class="eventos" id="eventos"></section>
-  <h1 class="evento__titulo">Eventos</h1>
-  <p class="evento__titulo2">Arraiá Garcez</p>
+<section class="eventos" id="eventos">
+  <h1 class="eventos__titulo">Eventos</h1>
+  <p class="eventos__titulo2">Arraiá Garcez</p>
 <!-- Slider main container -->
-<div class="swiper_">
+<div class="swiper">
 
   <!-- Additional required wrapper -->
   <div class="swiper-wrapper">
 
   <!-- Slides -->
-      <div class="swiper-slide">2°C Aula de Biotecnologia
-      <img src="img/biotec2.jpg" alt="Alunos do 2°C em aula de Biotecnologia"> </div>
+      <div class="swiper-slide">
+      <img src="img/mural-arraia.jpg" alt="Mural escrito Arraiá Garcez"> </div>
 
-      <div class="swiper-slide">Professora de Biotecnologia
-      <img src="img/biotec1.jpg" alt="Professora Maria Alice de Biotecnologia caracterizada como juiz"> </div>
+      <div class="swiper-slide">
+      <img src="img/entrada.jpg" alt="Entrada da escola decorada pro Arraiá"> </div>
 
-      <div class="swiper-slide">Juri simulado
-      <img src="img/biotec3.jpg" alt="Professora Maria Alice de Biotecnologia caracterizada como juiz"> </div>
+      <div class="swiper-slide">
+      <img src="img/palco.jpg" alt="Palco decorado pro Arraiá"> </div>
+
+      <div class="swiper-slide">
+      <img src="img/diretores-festa.jpg" alt="Foto dos diretores com alunos"> </div>
+
+      <div class="swiper-slide">
+      <img src="img/dança1.jpg" alt="Alunos dançando na festa junina"> </div>
+
+      <div class="swiper-slide">
+      <img src="img/dança2.jpg" alt="Alunos dançando na festa junina"> </div>
   </div>
-
-  <!-- If we need navigation buttons -->
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
-
 </div>
 </section>
 
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script>
-    const swiper_ = new Swiper(".swiper_", {
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    const swiper_ = new Swiper(".swiper", {
       spaceBetween: 10,
-      slidesPerView: 3,
+      slidesPerView: 2,
+      loop: true,
       pagination: {
         el: ".swiper-pagination",
         type: "bullets",
       },
     });
-  </script>
+</script>
 
 
 <footer class="contato" id="contato">

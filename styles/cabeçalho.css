@@ -23,18 +23,21 @@
     text-decoration: none;
 }
 
+.cabeçalho__item a:hover {
+    color:#005897;
+}
+
 .opções_link{
     text-decoration: none;
     color: #012a4a;
     font-family: "Arapey";
 }
 
-
 .início{
     align-items:center;
 
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 125px;
 }
 
 .início__titulo{

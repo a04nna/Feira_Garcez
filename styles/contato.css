@@ -1,6 +1,6 @@
 .contato {
     text-align: center;
-    margin: 5em 3em;
+    padding-bottom: 50px;
     color:#002a48 ;
     font-family: "Poppins";
 }
@@ -13,6 +13,10 @@
 }
 
 .lista__link a{
-    color: var(--branco-principal);
+    color: #002a48;
     margin-left: 1em;
+}
+
+.lista__link a:hover {
+    color:#005897;
 }
